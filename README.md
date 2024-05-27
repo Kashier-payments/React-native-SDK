@@ -5,7 +5,7 @@ Welcome to the documentation for the Kashier React Native SDK, your gateway to s
 
 Kashier is a robust payment gateway solution designed to simplify and enhance the way businesses handle online transactions. By integrating the Kashier SDK into your React Native applications, you can provide your users with a reliable and efficient payment experience.
 
-##What is Kashier?
+## What is Kashier?
 [Kashier](https://kashier.io/) is a payments platform built to empower
 and simplify your business by providing you with
 simple and efficient tools to make it easier to
@@ -251,6 +251,7 @@ KashierServices.payWithWallet(walletPaymentModel,kashierHashKey)
 ```
 ### Save user card
 You can enable saving user card on regular payment and authorization by setting save parameter in  CardData Interface with `true`
+
 ### payWithToken
 
 Use this API to pay with saved Card token

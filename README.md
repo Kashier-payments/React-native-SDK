@@ -103,6 +103,7 @@ Use this API to pay after the user use OTP
 this API takes 2 arguments {PaymentModel,kashierHashKey}
 
 `PaymentModel` => typeof PaymentModel Interface
+
 `kashierHashKey` => hash key String (you can find how to generate `kashierHashKey` from [here](https://developers.kashier.io/payment/paymentui/#hashing))
 
 
@@ -155,6 +156,7 @@ Use this API to make authorization payments
 this API takes 2 arguments {PaymentModel,kashierHashKey}
 
 `PaymentModel` => typeof PaymentModel Interface
+
 `kashierHashKey` => hash key String 
 
 **Required Interfaces**
@@ -203,6 +205,7 @@ Use this API to pay with Authorize Payment with Otp
 this Api take 2 arguments {PaymentModel,kashierHashKey}
 
 `PaymentModel` => typeof PaymentModel Interface
+
 `kashierHashKey` => hash key String 
 
 **Required Interfaces**
@@ -235,6 +238,7 @@ Use this API to pay with Wallet
 this Api take 2 arguments {WalletPaymentModel,kashierHashKey}
 
 `WalletPaymentModel` => typeof WalletPaymentModel Interface
+
 `kashierHashKey` => hash key String 
 
 **Required Interfaces**
@@ -259,6 +263,7 @@ Use this API to pay with saved Card token
 this API takes 2 arguments {TokenPaymentModel,kashierHashKey}
 
 `TokenPaymentModel` => typeof TokenPaymentModel Interface
+
 `kashierHashKey` => hash key String 
 
 **Required Interfaces**
@@ -293,6 +298,7 @@ Use this API to delete card token for a selected user
 this API takes 2 arguments {customerReference,kashierHashKey}
 
 `DeleteTokenModelModel` => typeof DeleteTokenModelModel Interface
+
 ```js
 export interface DeleteTokenModelModel{
     cardToken: string,

@@ -18,7 +18,7 @@ run your business.
 - [Authorization with OTP](#payAuthorizeWithOtp)
 - [Authorization without OTP](#payAuthorizeWithoutOtp)
 - [Pay using wallet](#payUsingWallet)
-- [Save user Card as Token](#Save user card)
+- [Save user Card as Token](#saveUserCard)
 - [Pay With Token](#payWithToken)
 - [List user Cards](#retriveSavedCardsTokens)
 - [Delete Card tokens](#deleteToken)
@@ -249,7 +249,7 @@ interface WalletPaymentModel {
 ```js
 KashierServices.payWithWallet(walletPaymentModel,kashierHashKey)
 ```
-### Save user card
+### saveUserCard
 You can enable saving user card on regular payment and authorization by setting save parameter in  CardData Interface with `true`
 
 ### payWithToken

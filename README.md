@@ -63,7 +63,7 @@ const sdkMode = "DEVELOPMENT" | "PRODUCTION";
         })
 
   ```      
-###payWithoutOtp
+### payWithoutOtp
 Use this API to pay Internet Payment (no OTP required)
 
 this API takes 2 arguments {PaymentModel,kashierHashKey}

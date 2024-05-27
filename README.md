@@ -70,6 +70,7 @@ Use this API to pay Internet Payment (no OTP required)
 this API takes 2 arguments {PaymentModel,kashierHashKey}
 
 `PaymentModel` => typeof PaymentModel Interface
+
 `kashierHashKey` => hash key String 
 
 **Required Interfaces**
